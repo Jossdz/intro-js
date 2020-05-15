@@ -1,0 +1,20 @@
+{
+  "name": "ironhack-js-intro",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "mdx-deck ./src/deck.mdx",
+    "build": "mdx-deck build ./src/deck.mdx"
+  },
+  "dependencies": {
+    "i18next": "^19.4.4",
+    "i18next-browser-languagedetector": "^4.1.1",
+    "i18next-http-backend": "^1.0.10",
+    "i18next-xhr-backend": "^3.2.2",
+    "mdx-deck": "^4.1.1",
+    "mdx-deck-code-surfer": "^0.5.5",
+    "prism-react-renderer": "^1.1.0",
+    "raw-loader": "^4.0.1",
+    "react-i18next": "^11.4.0",
+    "styled-components": "^5.1.0"
+  }
+}

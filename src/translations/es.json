@@ -1,6 +1,21 @@
+
 {
   "translation": {
-    "key": "Hola mundo",
-    "list": ["qew", "gter", "liu34hr", "fert"]
+    "1-title": "Un vistaso a Desarrollo web",
+    "2-title":"Contenido:",
+    "2-body": ["HTML", "CSS", "Javascrip"],
+    "3-title": "HTML",
+    "3-description": "HTML es el lenguaje de marcado de la web. Ha sido la tecnologia que nos permite mostrar contenido en los sitios web desde tiempos inmemorables, desde texto hasta audio pasando por imagenes, videos, lienzos, entre otras cosas.",
+    "4-code": "<div><h1>Bienvenidos a HTML</h1><p>Un lenguaje, basado en etiquetas</p></div>",
+    "5-body": "HTML es relativamente simple, pero debes familiarizarte con las etiquetas disponibles y sus casos de uso.",
+    "6-body": "CSS es el lenguaje que describe el estilo de un documento html y funciona mediante selectores para llegar a las etiquetas existentes en el documento HTML.",
+    "8-title": "Tipos de selectores",
+    "9-title": "Etiqueta",
+    "10-title": "Clases",
+    "11-title": "ID's",
+    "13-title": "Propiedades",
+    "13-body": "Una vez comprendes los selectores, lo que necesitas es conocer las multiples propiedades que los selectores de css pueden aplicar a los elementos de html.",
+    "14-title": "Javascript",
+    "14-content": ["Mostrar informacion", "Variables", "Tipos de datos", "Estructuras de datos", "Expresiones", "Operadores", "Condicionales", "Funciones", "DOM"]
   }
 }

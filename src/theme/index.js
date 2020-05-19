@@ -1,4 +1,14 @@
 import { themes } from "mdx-deck";
+import {createGlobalStyle} from 'styled-components'
+export const GlobalStyles = createGlobalStyle`
+  .react-live-preview{
+    color: black;
+  }
+  a:visited{
+    color: #32C3FF;
+  }
+`
+
 
 export default {
   ...themes,

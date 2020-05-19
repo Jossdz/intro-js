@@ -1,6 +1,8 @@
+
 {
   "translation": {
-    "key": "hello world",
-    "list": ["aws", "aws", "aws", "aws"]
+    "1-title": "Un vistaso a Desarrollo web",
+    "2-title": ["HTML", "CSS", "Javascrip"],
+    "2-content": ["qew", "gter", "liu34hr", "fert"]
   }
 }

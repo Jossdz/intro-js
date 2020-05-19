@@ -1,7 +1,12 @@
 import "./i18n";
-import mytheme from "./theme";
+import mytheme, {GlobalStyles} from "./theme";
+import Ironhack from './theme/ironhack'
 import SwitchLang from "./components/SwitchLang";
 import IntlContent from "./components/IntlContent";
+import getTranslation from './components/getTranslation'
+import {Split, Horizontal} from 'mdx-deck'
+import { LiveCode } from 'mdx-deck-live-code';
+import {CodeSurfer} from 'code-surfer'
 
 export const theme = mytheme;
 
@@ -12,6 +17,8 @@ export const theme = mytheme;
   style={{ width: "5vh" }}
 />
 
+<GlobalStyles/>
+
 </Header>
 
 <Footer>
@@ -21,9 +28,153 @@ export const theme = mytheme;
 
 </Footer>
 
-# Js intro
+<IntlContent label="1-title" htmlElement="h1"/>
 
 ---
 
-<IntlContent label="key" htmlElement="h2" />
-<IntlContent label="list" htmlElement="ul" />
+<!-- Index -->
+
+<IntlContent label="2-title" htmlElement="h2" />
+<IntlContent label="2-body" htmlElement="ul" />
+
+---
+
+<!-- Index -->
+
+<IntlContent label="3-title" htmlElement="h2"/>
+<IntlContent label="3-description"/>
+
+---
+
+<img src='https://www.w3.org/community/webed/wiki/images/a/a6/Article4-1.gif'/>
+
+---
+
+<div
+  dangerouslySetInnerHTML={{
+    __html: `
+<iframe style="width: 90vw; height: 80vh;" scrolling="no" title="hTML" src="https://codepen.io/jossdz/embed/OJyaEXZ?height=265&theme-id=default&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/jossdz/pen/OJyaEXZ'>hTML</a> by Jose Carlos Correa
+  (<a href='https://codepen.io/jossdz'>@jossdz</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+    `,
+  }}
+/>
+
+---
+
+<IntlContent label="5-body"/>
+
+<a href="https://www.w3schools.com/TAGS/default.ASP" target="_blank">W3S Docs</a>
+
+---
+
+<Split>
+
+# CSS
+
+<IntlContent label='6-body'/>
+
+</Split>
+
+---
+
+<img src='https://hackernoon.com/drafts/2z4a3yh4.png'/>
+
+---
+
+<IntlContent label='8-title' htmlElement="h2"/>
+
+---
+
+<Split>
+
+<IntlContent label='9-title' htmlElement="h2"/>
+
+<CodeSurfer theme={Ironhack}>
+
+```css 1,3
+  h1 {
+    background-color: #31dafb;
+  }
+```
+
+```css 2[1:21]
+  h1 {
+    background-color: #31dafb;
+  }
+```
+
+```css 2[22:30]
+  h1 {
+    background-color: #31dafb;
+  }
+```
+</CodeSurfer>
+
+</Split>
+
+---
+
+<Split>
+
+<IntlContent label='10-title' htmlElement="h2"/>
+
+<CodeSurfer theme={Ironhack}>
+
+```css
+  .cards {
+    background-color: #232323;
+  }
+```
+</CodeSurfer>
+
+</Split>
+
+---
+
+<Split>
+
+<IntlContent label='11-title' htmlElement="h2"/>
+
+<CodeSurfer theme={Ironhack}>
+
+```css
+  #uniqueElement {
+    background-color: #232323;
+  }
+```
+</CodeSurfer>
+
+</Split>
+
+---
+
+<!-- css example -->
+
+<div
+  dangerouslySetInnerHTML={{
+    __html: `
+     <iframe  style="width: 90vw; height: 80vh;" scrolling="no" title="zYvMavx" src="https://codepen.io/jossdz/embed/zYvMavx?height=265&theme-id=default&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/jossdz/pen/zYvMavx'>zYvMavx</a> by Jose Carlos Correa
+  (<a href='https://codepen.io/jossdz'>@jossdz</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe> 
+    `,
+  }}
+/>
+
+---
+
+<!-- Properties -->
+
+<IntlContent label="13-title" htmlElement="h1"/>
+<IntlContent label="13-body"/>
+<a href="https://www.w3schools.com/cssref/default.asp">W3S Css</a>
+
+---
+
+<!-- Properties -->
+
+<IntlContent label="14-title" htmlElement="h1"/>
+<IntlContent label="14-content" htmlElement="ul"/>
+

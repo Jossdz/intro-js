@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import React from "react";
 
-const Hello = ({ label, htmlElement }) => {
+const IntlContent = ({ label, htmlElement, href }) => {
   const { t } = useTranslation();
   switch (htmlElement) {
     case "h1":
@@ -12,8 +12,10 @@ const Hello = ({ label, htmlElement }) => {
       return <h3>{t(label)}</h3>;
     case "h4":
       return <h4>{t(label)}</h4>;
+    case "a":
+      return <a href={href}>{t(label)}</a>
     case "ul":
-      const elements = t("list", { returnObjects: true });
+      const elements = t(label, { returnObjects: true });
       return (
         <ul>
           {elements.map((el, i) => (
@@ -26,4 +28,4 @@ const Hello = ({ label, htmlElement }) => {
   }
 };
 
-export default Hello;
+export default IntlContent;

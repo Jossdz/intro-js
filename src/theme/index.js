@@ -1,6 +1,13 @@
 import { themes } from "mdx-deck";
 import {createGlobalStyle} from 'styled-components'
 export const GlobalStyles = createGlobalStyle`
+  header + div {
+    padding: 0 5vw;
+r;
+  }
+  h1, h2, h3{
+    color: #32C3FF;
+  }
   .react-live-preview{
     color: black;
   }

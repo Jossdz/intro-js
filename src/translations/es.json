@@ -1,9 +1,8 @@
-
 {
   "translation": {
-    "1-title": "Un vistaso a Desarrollo web",
-    "2-title":"Contenido:",
-    "2-body": ["HTML", "CSS", "Javascrip"],
+    "1-title": "Intro Javascript",
+    "2-title": "Contenido:",
+    "2-body": ["HTML", "CSS", "Javascript"],
     "3-title": "HTML",
     "3-description": "HTML es el lenguaje de marcado de la web. Ha sido la tecnologia que nos permite mostrar contenido en los sitios web desde tiempos inmemorables, desde texto hasta audio pasando por imagenes, videos, lienzos, entre otras cosas.",
     "4-code": "<div><h1>Bienvenidos a HTML</h1><p>Un lenguaje, basado en etiquetas</p></div>",
@@ -16,6 +15,46 @@
     "13-title": "Propiedades",
     "13-body": "Una vez comprendes los selectores, lo que necesitas es conocer las multiples propiedades que los selectores de css pueden aplicar a los elementos de html.",
     "14-title": "Javascript",
-    "14-content": ["Mostrar informacion", "Variables", "Tipos de datos", "Estructuras de datos", "Expresiones", "Operadores", "Condicionales", "Funciones", "DOM"]
+    "14-content": [
+      "Mostrar informacion",
+      "Variables",
+      "Tipos de datos",
+      "Estructuras de datos",
+      "Expresiones",
+      "Operadores",
+      "Funciones",
+      "DOM"
+    ],
+    "17-title": "Tipos de datos",
+    "17-content": [
+      "Booleanos: true / false",
+      "Numeros: -1 / 0 / 20",
+      "String: \"a\" / \"3\" / \"joss\"",
+      "Undefined: undefined",
+      "Null: null"
+    ],
+    "18-title": "Estructuras de datos",
+    "19-content": "Así como tenemos oportunidad de almacenar datos arbitrarios en espacios en nuestros programas tenemos estructuras para darles orden y contexto.",
+    "20-title": "Arreglos",
+    "20-content1": "Es una estructura que nos ayuda a almacenar elementos como una lista.",
+    "20-content2": "Es una exelente herramienta para agrupar datos que podemos iterar y nos provee de herramientas para hacerlo o conocer sus elementos.",
+    "22-title": "Objetos",
+    "22-content1": "Los objetos son una estructura que componen un elemento con ciertas propiedades con una llave (nombre) y un valor, ayudan a dar contexto y a ordenar el código.",
+    "22-content2": "Son exelentes para agrupar 'variables' que hacen referencia a elementos de un mismo objeto.",
+    "24-title": "EXPRESIONES",
+    "24-content": "Son operaciones que te devuelven un valor, dependiendo de la expresion el dato devuelto.",
+    "25-title": "Operadores aritméticos",
+    "25-content": "Para resolver expresiones matemáticas tenemos una serie de operadores:",
+    "25-operators": " +, -, *, /, entre otros.",
+    "27-title": "Funciones",
+    "27-content": "Casi tenemos todas las piezas que necesitamos, lo que nos hace falta hasta ahora es una estructura que nos ayude a no repetir código y reutilizar ejecutandose cada vez que lo solicitamos, eso son las funciones.",
+    "29-title": "DOM",
+    "29-content": "Es la interfaz que nos permite generar interación entre el html y el javascript gracias a su representacion como arbol y los metodos del documento html.",
+    "32-title": "Hora del código",
+    "32-content": "Es hora de una demostracion y reto con lo aprendido, para empezar da click en el link al editor:",
+    "32-link": "Editor de código",
+    "33-title": "Retos:",
+    "33-list": ["Ponle tu toque, cambia los estilos 🎨", "haz la funcionalidad de aleatorio 🔀", "reproduce una cancion cuando le das click en la playlist. 🎶"],
+    "34-title": "Gracias!"
   }
 }

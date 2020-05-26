@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
+import {Steps} from 'mdx-deck'
 import React from "react";
 
-const IntlContent = ({ label, htmlElement, href }) => {
+const IntlContent = ({ label, htmlElement, href, steps }) => {
   const { t } = useTranslation();
   switch (htmlElement) {
     case "h1":
@@ -13,16 +14,22 @@ const IntlContent = ({ label, htmlElement, href }) => {
     case "h4":
       return <h4>{t(label)}</h4>;
     case "a":
-      return <a href={href}>{t(label)}</a>
+      return <a rel="noreferrer" target="_blank" href={href}>{t(label)}</a>;
     case "ul":
       const elements = t(label, { returnObjects: true });
-      return (
+      return steps ? (
         <ul>
-          {elements.map((el, i) => (
-            <li key={i}>{el}</li>
-          ))}
+          <Steps>
+            {elements.map((el, i) => (
+              <li key={i}>{el}</li>
+            ))}
+          </Steps>
         </ul>
-      );
+      ) : <ul>
+        {elements.map((el, i) => (
+          <li key={i}>{el}</li>
+        ))}
+    </ul>;
     default:
       return <p>{t(label)}</p>;
   }

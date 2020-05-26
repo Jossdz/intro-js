@@ -7,8 +7,10 @@ const SwitchStyled = styled.div`
   border-radius: 8px;
   height: 30px;
     overflow: hidden;
-  button:first-child{
-    border-right: 1px solid white;
+ 
+  button:nth-child(2){
+    border: 1px solid white;
+    border-width: 0 1px 0 1px;
   }
   button{
     height: inherit;
@@ -30,6 +32,7 @@ function SwitchLang() {
     <SwitchStyled>
       <button onClick={() => changeLanguage("es")}>es</button>
       <button onClick={() => changeLanguage("en")}>en</button>
+      <button onClick={() => changeLanguage("en")}>pr</button>
     </SwitchStyled>
   );
 }

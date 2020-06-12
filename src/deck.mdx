@@ -1,19 +1,19 @@
-import "./i18n";
-import mytheme, { GlobalStyles } from "./theme";
-import Ironhack from "./theme/ironhack";
-import SwitchLang from "./components/SwitchLang";
-import IntlContent from "./components/IntlContent";
-import getTranslation from "./components/getTranslation";
-import { Split, Horizontal, Notes } from "mdx-deck";
-import { LiveCode } from "mdx-deck-live-code";
-import { CodeSurfer } from "code-surfer";
+import "./i18n"
+import mytheme, { GlobalStyles } from "./theme"
+import Ironhack from "./theme/ironhack"
+import SwitchLang from "./components/SwitchLang"
+import IntlContent from "./components/IntlContent"
+import getTranslation from "./components/getTranslation"
+import { Split, Horizontal, Notes } from "mdx-deck"
+import { LiveCode } from "mdx-deck-live-code"
+import { CodeSurfer } from "code-surfer"
 
-export const theme = mytheme;
+export const theme = mytheme
 
 <Header>
 
 <img
-  src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/4017/s300/logo-ironhack-blue.png"
+  src='https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/4017/s300/logo-ironhack-blue.png'
   style={{ width: "5vh" }}
 />
 
@@ -22,31 +22,32 @@ export const theme = mytheme;
 </Header>
 
 <Footer>
-  <SwitchLang/>
+  {/* <SwitchLang/> */}
+  <p>@jossdz</p>
 
-<a href="https://www.ironhack.com/">Ironhack</a>
+<a href='https://www.ironhack.com/'>Ironhack</a>
 
 </Footer>
 
-<IntlContent label="1-title" htmlElement="h1" />
+<IntlContent label='1-title' htmlElement='h1' />
 
 ---
 
 <!-- Index -->
 
-<IntlContent label="2-title" htmlElement="h2" />
-<IntlContent label="2-body" htmlElement="ul" />
+<IntlContent label='2-title' htmlElement='h2' />
+<IntlContent label='2-body' htmlElement='ul' />
 
 ---
 
 <!-- Index -->
 
-<IntlContent label="3-title" htmlElement="h2" />
-<IntlContent label="3-description" />
+<IntlContent label='3-title' htmlElement='h2' />
+<IntlContent label='3-description' />
 
 ---
 
-<img src="https://www.w3.org/community/webed/wiki/images/a/a6/Article4-1.gif" />
+<img src='https://www.w3.org/community/webed/wiki/images/a/a6/Article4-1.gif' />
 
 ---
 
@@ -57,15 +58,15 @@ export const theme = mytheme;
   See the Pen <a href='https://codepen.io/jossdz/pen/OJyaEXZ'>hTML</a> by Jose Carlos Correa
   (<a href='https://codepen.io/jossdz'>@jossdz</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
-    `,
+    `
   }}
 />
 
 ---
 
-<IntlContent label="5-body" />
+<IntlContent label='5-body' />
 
-<a href="https://www.w3schools.com/TAGS/default.ASP" target="_blank">
+<a href='https://www.w3schools.com/TAGS/default.ASP' target='_blank'>
   W3S Docs
 </a>
 
@@ -75,23 +76,23 @@ export const theme = mytheme;
 
 # CSS
 
-<IntlContent label="6-body" />
+<IntlContent label='6-body' />
 
 </Split>
 
 ---
 
-<img src="https://hackernoon.com/drafts/2z4a3yh4.png" />
+<img src='https://hackernoon.com/drafts/2z4a3yh4.png' />
 
 ---
 
-<IntlContent label="8-title" htmlElement="h2" />
+<IntlContent label='8-title' htmlElement='h2' />
 
 ---
 
 <Split>
 
-<IntlContent label="9-title" htmlElement="h2" />
+<IntlContent label='9-title' htmlElement='h2' />
 
 <CodeSurfer theme={Ironhack}>
 
@@ -101,13 +102,13 @@ h1 {
 }
 ```
 
-```css 2[1:21]
+```css 2[1:20]
 h1 {
   background-color: #31dafb;
 }
 ```
 
-```css 2[22:30]
+```css 2[21:30]
 h1 {
   background-color: #31dafb;
 }
@@ -121,7 +122,7 @@ h1 {
 
 <Split>
 
-<IntlContent label="10-title" htmlElement="h2" />
+<IntlContent label='10-title' htmlElement='h2' />
 
 <CodeSurfer theme={Ironhack}>
 
@@ -139,7 +140,7 @@ h1 {
 
 <Split>
 
-<IntlContent label="11-title" htmlElement="h2" />
+<IntlContent label='11-title' htmlElement='h2' />
 
 <CodeSurfer theme={Ironhack}>
 
@@ -164,7 +165,7 @@ h1 {
   See the Pen <a href='https://codepen.io/jossdz/pen/zYvMavx'>zYvMavx</a> by Jose Carlos Correa
   (<a href='https://codepen.io/jossdz'>@jossdz</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe> 
-    `,
+    `
   }}
 />
 
@@ -172,27 +173,27 @@ h1 {
 
 <!-- Properties -->
 
-<IntlContent label="13-title" htmlElement="h1" />
-<IntlContent label="13-body" />
-<a href="https://www.w3schools.com/cssref/default.asp">W3S Css</a>
+<IntlContent label='13-title' htmlElement='h1' />
+<IntlContent label='13-body' />
+<a href='https://www.w3schools.com/cssref/default.asp'>W3S Css</a>
 
 ---
 
 <!-- Properties -->
 
-<IntlContent label="14-title" htmlElement="h1" />
-<IntlContent label="14-content" htmlElement="ul" />
+<IntlContent label='14-title' htmlElement='h1' />
+<IntlContent label='14-content' htmlElement='ul' />
 
 ---
 
 <CodeSurfer theme={Ironhack}>
 
 ```js 1[1:11]
-console.log("Hi");
+console.log("Hi")
 ```
 
 ```js 1[12:18]
-console.log("Hi");
+console.log("Hi")
 ```
 
 </CodeSurfer>
@@ -212,33 +213,33 @@ Here we have to explain that this structure shows the data passed through the pa
 <CodeSurfer theme={Ironhack}>
 
 ```js 1[1:3]
-let attendees = 200;
-const myName = "Joss";
+let attendees = 200
+const myName = "Joss"
 ```
 
 ```js 1[4:14]
-let attendees = 200;
-const myName = "Joss";
+let attendees = 200
+const myName = "Joss"
 ```
 
 ```js 1[15:22]
-let attendees = 200;
-const myName = "Joss";
+let attendees = 200
+const myName = "Joss"
 ```
 
 ```js 2[1:5]
-let attendees = 200;
-const myName = "Joss";
+let attendees = 200
+const myName = "Joss"
 ```
 
 ```js 2[6:13]
-let attendees = 200;
-const myName = "Joss";
+let attendees = 200
+const myName = "Joss"
 ```
 
 ```js 2[14:22]
-let attendees = 200;
-const myName = "Joss";
+let attendees = 200
+const myName = "Joss"
 ```
 
 </CodeSurfer>
@@ -253,93 +254,92 @@ const myName = "Joss";
   
   <IntlContent htmlElement='h1' label='17-title'/>
 
-  <IntlContent htmlElement="ul" label="17-content" steps />
+<IntlContent htmlElement='ul' label='17-content' steps />
 
 </Split>
 
 ---
 
 <!-- 18 | Data structures -->
-  
-<IntlContent htmlElement='h1' label='18-title'/>
+
+<IntlContent htmlElement='h1' label='18-title' />
 
 ---
 
-<IntlContent  label="19-content" />
+<IntlContent label='19-content' />
 
 ---
 
 <!-- 20 -->
 
-<IntlContent htmlElement='h1' label='20-title'/>
+<IntlContent htmlElement='h1' label='20-title' />
 
-<IntlContent label="20-content1"/>
+<IntlContent label='20-content1' />
 
-<IntlContent label="20-content2"/>
+<IntlContent label='20-content2' />
 
 ---
 
 <CodeSurfer theme={Ironhack}>
 
 ```js 1[14:37]
-const array = [1, "joss", true, [20]];
+const array = [1, "joss", true, [20]]
 
-array[0]; // 1
-array[1]; // 'joss'
-array[2]; // true
-array[3]; // [20]
-array.length; // 4
+array[0] // 1
+array[1] // 'joss'
+array[2] // true
+array[3] // [20]
+array.length // 4
 
-array.push(0);
+array.push(0)
 ```
 
 ```js 3,4,5,6
-const array = [1, "joss", true, [20]];
+const array = [1, "joss", true, [20]]
 
-array[0]; // 1
-array[1]; // 'joss'
-array[2]; // true
-array[3]; // [20]
-array.length; // 4
+array[0] // 1
+array[1] // 'joss'
+array[2] // true
+array[3] // [20]
+array.length // 4
 
-array.push(0);
+array.push(0)
 ```
 
 ```js 7
-const array = [1, "joss", true, [20]];
+const array = [1, "joss", true, [20]]
 
-array[0]; // 1
-array[1]; // 'joss'
-array[2]; // true
-array[3]; // [20]
-array.length; // 4
+array[0] // 1
+array[1] // 'joss'
+array[2] // true
+array[3] // [20]
+array.length // 4
 
-array.push(0);
+array.push(0)
 ```
 
 ```js 9
-const array = [1, "joss", true, [20]];
+const array = [1, "joss", true, [20]]
 
-array[0]; // 1
-array[1]; // 'joss'
-array[2]; // true
-array[3]; // [20]
-array.length; // 4
+array[0] // 1
+array[1] // 'joss'
+array[2] // true
+array[3] // [20]
+array.length // 4
 
-array.push(0);
+array.push(0)
 ```
 
 </CodeSurfer>
 
-
 <Notes>
 
-  Steps:
+Steps:
 
-  1. Array structure
-  2. How to access to an array element
-  3. Array length
-  4. How to add an element to an array (push)
+1. Array structure
+2. How to access to an array element
+3. Array length
+4. How to add an element to an array (push)
 
 </Notes>
 
@@ -347,11 +347,11 @@ array.push(0);
 
 <!-- 22 -->
 
-<IntlContent htmlElement='h1' label='22-title'/>
+<IntlContent htmlElement='h1' label='22-title' />
 
-<IntlContent label="22-content1"/>
+<IntlContent label='22-content1' />
 
-<IntlContent label="22-content2"/>
+<IntlContent label='22-content2' />
 
 ---
 
@@ -368,12 +368,11 @@ const ironhackMex = {
     }
     //...
   ]
-};
+}
 
-wecode.teacher; // "Joss"
-wecode["place"]; // "Joss's house"
-wecode.attendees[0].name; // "Karen"
-
+wecode.teacher // "Joss"
+wecode["place"] // "Joss's house"
+wecode.attendees[0].name // "Karen"
 ```
 
 ```js 13,14,15
@@ -387,99 +386,98 @@ const ironhackMex = {
     }
     //...
   ]
-};
+}
 
-wecode.teacher; // "Joss"
-wecode["place"]; // "Joss's house"
-wecode.attendees[0].name; // "Karen"
-
+wecode.teacher // "Joss"
+wecode["place"] // "Joss's house"
+wecode.attendees[0].name // "Karen"
 ```
 
 </CodeSurfer>
-
 
 ---
 
 <!-- 24 Expressions -->
 
-<IntlContent htmlElement="h1" label="24-title"/>
+<IntlContent htmlElement='h1' label='24-title' />
 
-<IntlContent label="24-content"/>
+<IntlContent label='24-content' />
 
 ---
 
 <!-- 25 Expressions -->
 
-<IntlContent htmlElement="h1" label="25-title"/>
+<IntlContent htmlElement='h1' label='25-title' />
 
-<IntlContent label="25-content"/>
-<IntlContent label="25-operators"/>
+<IntlContent label='25-content' />
+<IntlContent label='25-operators' />
 
 ---
 
 <CodeSurfer theme={Ironhack}>
 
 ```js 1,2,3,4,5
-3 + 5; // 8
-5 - 10; // -5
-3 * 3; // 9
-6 / 2; // 3
-7 % 7; // 0
+3 + 5 // 8
+5 - 10 // -5
+3 * 3 // 9
+6 / 2 // 3
+7 % 7 // 0
 
-const result = 10 % 5;
+const result = 10 % 5
 
-result; // -> 0
+result // -> 0
 ```
 
 ```js 7[16:23]
-3 + 5; // 8
-5 - 10; // -5
-3 * 3; // 9
-6 / 2; // 3
-7 % 7; // 0
+3 + 5 // 8
+5 - 10 // -5
+3 * 3 // 9
+6 / 2 // 3
+7 % 7 // 0
 
-const result = 10 % 5;
+const result = 10 % 5
 
-result; // -> 0
+result // -> 0
 ```
 
 ```js 7[1:15]
-3 + 5; // 8
-5 - 10; // -5
-3 * 3; // 9
-6 / 2; // 3
-7 % 7; // 0
+3 + 5 // 8
+5 - 10 // -5
+3 * 3 // 9
+6 / 2 // 3
+7 % 7 // 0
 
-const result = 10 % 5;
+const result = 10 % 5
 
-result; // -> 0
+result // -> 0
 ```
 
 ```js 9
-3 + 5; // 8
-5 - 10; // -5
-3 * 3; // 9
-6 / 2; // 3
-7 % 7; // 0
+3 + 5 // 8
+5 - 10 // -5
+3 * 3 // 9
+6 / 2 // 3
+7 % 7 // 0
 
-const result = 10 % 5;
+const result = 10 % 5
 
-result; // -> 0
+result // -> 0
 ```
 
 </CodeSurfer>
 
 <Notes>
-  Here we have to explain how an operation can be store in a variable since they return a value.
+  Here we have to explain how an operation can be store in a variable since they
+  return a value.
 </Notes>
 
 ---
 
 <!-- 27  functions-->
 
-<IntlContent htmlElement="h1" label="27-title"/>
+<IntlContent htmlElement='h1' label='27-title' />
 
-<IntlContent label="27-content"/>
+<IntlContent label='27-content' />
 
 ---
 
@@ -487,132 +485,132 @@ result; // -> 0
 
 ```js
 function add(numOne, numTwo) {
-  const result = numOne + numTwo;
-  return result;
+  const result = numOne + numTwo
+  return result
 }
 
-add(1, 4); // 5
+add(1, 4) // 5
 
-const addRes = /* <- */ add(1, 6);
+const addRes = /* <- */ add(1, 6)
 
-addRes; // 7
+addRes // 7
 ```
 
 ```js 1[1:8]
 function add(numOne, numTwo) {
-  const result = numOne + numTwo;
-  return result;
+  const result = numOne + numTwo
+  return result
 }
 
-add(1, 4); // 5
+add(1, 4) // 5
 
-const addRes = /* <- */ add(1, 6);
+const addRes = /* <- */ add(1, 6)
 
-addRes; // 7
+addRes // 7
 ```
 
 ```js 1[9:12]
 function add(numOne, numTwo) {
-  const result = numOne + numTwo;
-  return result;
+  const result = numOne + numTwo
+  return result
 }
 
-add(1, 4); // 5
+add(1, 4) // 5
 
-const addRes = /* <- */ add(1, 6);
+const addRes = /* <- */ add(1, 6)
 
-addRes; // 7
+addRes // 7
 ```
 
 ```js 1[13:29]
 function add(numOne, numTwo) {
-  const result = numOne + numTwo;
-  return result;
+  const result = numOne + numTwo
+  return result
 }
 
-add(1, 4); // 5
+add(1, 4) // 5
 
-const addRes = /* <- */ add(1, 6);
+const addRes = /* <- */ add(1, 6)
 
-addRes; // 7
+addRes // 7
 ```
 
 ```js 1,4
 function add(numOne, numTwo) {
-  const result = numOne + numTwo;
-  return result;
+  const result = numOne + numTwo
+  return result
 }
 
-add(1, 4); // 5
+add(1, 4) // 5
 
-const addRes = /* <- */ add(1, 6);
+const addRes = /* <- */ add(1, 6)
 
-addRes; // 7
+addRes // 7
 ```
 
 ```js 2
 function add(numOne, numTwo) {
-  const result = numOne + numTwo;
-  return result;
+  const result = numOne + numTwo
+  return result
 }
 
-add(1, 4); // 5
+add(1, 4) // 5
 
-const addRes = /* <- */ add(1, 6);
+const addRes = /* <- */ add(1, 6)
 
-addRes; // 7
+addRes // 7
 ```
 
 ```js 3
 function add(numOne, numTwo) {
-  const result = numOne + numTwo;
-  return result;
+  const result = numOne + numTwo
+  return result
 }
 
-add(1, 4); // 5
+add(1, 4) // 5
 
-const addRes = /* <- */ add(1, 6);
+const addRes = /* <- */ add(1, 6)
 
-addRes; // 7
+addRes // 7
 ```
 
 ```js 6
 function add(numOne, numTwo) {
-  const result = numOne + numTwo;
-  return result;
+  const result = numOne + numTwo
+  return result
 }
 
-add(1, 4); // 5
+add(1, 4) // 5
 
-const addRes = /* <- */ add(1, 6);
+const addRes = /* <- */ add(1, 6)
 
-addRes; // 7
+addRes // 7
 ```
 
 ```js 8
 function add(numOne, numTwo) {
-  const result = numOne + numTwo;
-  return result;
+  const result = numOne + numTwo
+  return result
 }
 
-add(1, 4); // 5
+add(1, 4) // 5
 
-const addRes = /* <- */ add(1, 6);
+const addRes = /* <- */ add(1, 6)
 
-addRes; // 7
+addRes // 7
 ```
 
 ```js 10
 function add(numOne, numTwo) {
-  const result = numOne + numTwo;
-  return result;
+  const result = numOne + numTwo
+  return result
 }
 
-add(1, 4); // 5
+add(1, 4) // 5
 
-const addRes = /* <- */ add(1, 6);
+const addRes = /* <- */ add(1, 6)
 
-addRes; // 7
+addRes // 7
 ```
 
 </CodeSurfer>
@@ -621,32 +619,33 @@ addRes; // 7
 
 <!-- 29 Conditionals -->
 
-<IntlContent htmlElement="h1" label="29-title"/>
+<IntlContent htmlElement='h1' label='29-title' />
 
-<IntlContent label="29-content"/>
-
+<IntlContent label='29-content' />
 
 ---
 
 <!-- DOM -->
 
-<img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png" alt="dom"/>
+<img
+  src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png'
+  alt='dom'
+/>
 
 ---
 
 <!-- 31 Methods to get a dom element -->
 
-
 <CodeSurfer theme={Ironhack}>
 
 ```js
-  document.getElementsByTagName('a')
-  document.getElementsByClassName('active')
-  document.getElementById('title')
+document.getElementsByTagName("a")
+document.getElementsByClassName("active")
+document.getElementById("title")
 
-  document.querySelector('a')
-  document.querySelector('#active')
-  document.querySelectorAll('.active')
+document.querySelector("a")
+document.querySelector("#active")
+document.querySelectorAll(".active")
 ```
 
 </CodeSurfer>
@@ -661,12 +660,11 @@ I use querySelector in the demo but I'm going to left the getElement notation to
 
 <!-- 32 Let's code -->
 
-<IntlContent htmlElement="h2" label="32-title"/>
+<IntlContent htmlElement='h2' label='32-title' />
 
-<IntlContent label="32-content"/>
+<IntlContent label='32-content' />
 
-<IntlContent htmlElement="a" href="https://codepen.io/pen/" label="32-link"/>
-
+<IntlContent htmlElement='a' href='https://codepen.io/pen/' label='32-link' />
 
 ---
 
@@ -674,12 +672,12 @@ I use querySelector in the demo but I'm going to left the getElement notation to
 
 <Split>
 
-  <IntlContent htmlElement="h2" label="33-title"/>
+<IntlContent htmlElement='h2' label='33-title' />
 
-  <IntlContent htmlElement="ul" label="33-list"/>
+<IntlContent htmlElement='ul' label='33-list' />
 
 </Split>
 
 ---
 
-<IntlContent htmlElement="h1" label="34-title"/>
+<IntlContent htmlElement='h1' label='34-title' />

@@ -1,9 +1,8 @@
-import { themes } from "mdx-deck";
-import {createGlobalStyle} from 'styled-components'
+import { themes } from "mdx-deck"
+import { createGlobalStyle } from "styled-components"
 export const GlobalStyles = createGlobalStyle`
   header + div {
     padding: 0 5vw;
-r;
   }
   h1, h2, h3{
     color: #32C3FF;
@@ -14,8 +13,11 @@ r;
   a:visited{
     color: #32C3FF;
   }
+  a{
+    color: #32C3FF;
+    text-decoration: none;
+  }
 `
-
 
 export default {
   ...themes,
@@ -23,28 +25,28 @@ export default {
   h1: {
     textTransform: "uppercase",
     fontWeight: 600,
-    fontSize: "4rem",
+    fontSize: "4rem"
   },
   h2: {
-    color: "#32C3FF",
+    color: "#32C3FF"
   },
   monospace: '"Dank Mono", Josefin Sans, Sans Serif',
   img: {
-    maxWidth: "100%",
+    maxWidth: "100%"
   },
   weights: 400,
   li: {
     paddingBottom: "16px",
     fontFamily: '"Ranga","Verdana"',
-    fontSize: "0.8em",
+    fontSize: "0.8em"
   },
   ul: {
     // listStyle: 'none',
     paddingLeft: "20px",
-    display: "inline-block",
+    display: "inline-block"
   },
   p: {
-    fontSize: "30px",
+    fontSize: "30px"
   },
   colors: {
     text: "#FFF",
@@ -53,7 +55,7 @@ export default {
     pre: "#FFD35C",
     preBackground: "#1E2434",
     code: "#fff",
-    strong: "#FFD35C",
+    strong: "#FFD35C"
   },
   styles: {
     Footer: {
@@ -61,13 +63,13 @@ export default {
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
-      height: "6vh",
+      height: "6vh"
     },
     Header: {
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
-      height: "6vh",
-    },
-  },
-};
+      height: "6vh"
+    }
+  }
+}
